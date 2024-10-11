@@ -1,3102 +1,3098 @@
 .jamgacor {
-   
-	background-image: linear-gradient(#363636, #363636);
-	font-family: "Poppins", sans-serif !important;
-	padding: 3px;
-	padding-top: 6px;
-	border-top-left-radius: 6px;
-	border-top-right-radius: 6px;
-	
+  background-image: linear-gradient(#363636, #363636);
+  font-family: "Poppins", sans-serif !important;
+  padding: 3px;
+  padding-top: 6px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
 }
 
 .jamgacor h5 {
-	font-size: 1.3em;
-   
+  font-size: 1.3em;
 }
 .progress {
-	height: fit-content;
+  height: fit-content;
 }
 
 .pola {
-	background-image: linear-gradient(rgba(0, 133, 155, 1), rgba(0, 133, 155, 1));
-	font-family: "Poppins", sans-serif !important;
-	padding: 3px;
-	border-bottom-left-radius: 6px;
-	border-bottom-right-radius: 6px;
-	
+  background-color: #f97a05 !important;
+  background-image: linear-gradient(
+    90deg,
+    rgba(26, 26, 26, 0.3) 0%,
+    rgba(0, 0, 0, 0.3) 10%,
+    rgba(0, 0, 0, 0.3) 100%
+  ) !important;
+  padding: 3px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
 }
 
 .jam {
-	
-	padding: 8px;
-	color: #000;
-	font-weight: bold;
+  padding: 8px;
+  color: #000;
+  font-weight: bold;
 }
 
 .jam h5 {
-	font-size: 1.3em;
-	font-weight: bold;
+  font-size: 1.3em;
+  font-weight: bold;
 }
 .jamBg {
-	background-image: ;
-	transition: width 0.6s ease;
-	-webkit-animation: progress-bar-stripes 1s linear infinite;
-	animation: progress-bar-stripes 1s linear infinite;
-	background-size: 1rem 1rem;
+  transition: width 0.6s ease;
+  -webkit-animation: progress-bar-stripes 1s linear infinite;
+  animation: progress-bar-stripes 1s linear infinite;
+  background-size: 1rem 1rem;
 }
 @media (max-width: 992px) {
-	.jamgacor > h5 {
-		font-size: 1em;
-	}
-	.pola > p {
-		font-size: 0.8em;
-	}
+  .jamgacor > h5 {
+    font-size: 1em;
+  }
+  .pola > p {
+    font-size: 0.8em;
+  }
 }
 
 @media (max-width: 576px) {
-	.pola > p {
-		font-size: 0.75em !important;
-	}
+  .pola > p {
+    font-size: 0.75em !important;
+  }
 }
 
 .masuktombol {
-    color: #000000;
-    background-color: #ffd900;
-    border-radius: 5px;
-    padding:10px ;
-    font-weight: bold;
-    font-size: 12px;
-    
+  color: #000000;
+  background-color: #ffd900;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 12px;
 }
 .masuktombol:hover {
-    color: #ffd900;
-    background-color: #000000;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgb(0, 0, 0);
-    font-weight: bold;
-    font-size: 12px;
+  color: #ffd900;
+  background-color: #000000;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 12px;
 }
 
- /* POPUP POLA */
-     
-    .bocoran {
-    width: 350px;
-    background: #fff;
-    border-radius: 10px;
-    position: relative;
-    padding: 10px;
-    box-shadow: 0 0 5px rgba(0,0,0,.4);
-    text-align: center;
-    margin: 200px auto;
-    padding-bottom: 20px;
-    }
-    .bocoran h5{
-        padding-top: 10px;
-        color: #000000;
-    }
-    .bocoran h6{
-       
-        color: #000000;
-    }
-    .close-button {
-    width: 30px;
-    height: 30px;
-    background: #f1c40f;
-    border-radius: 50%;
-    border: 3px solid #fff;
-    display: block;
-    text-align: center;
-    color: #fff;
-    text-decoration: none;
-    position: absolute;
-    top: -10px;
-    right: -10px;
-    }
-     
-   
-    #popupbocoran1 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran1:target {
-    visibility: visible;
-    }
-    #popupbocoran2 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran2:target {
-    visibility: visible;
-    }
+/* POPUP POLA */
 
-     #popupbocoran3 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran3:target {
-    visibility: visible;
-    }
-     #popupbocoran4 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran4:target {
-    visibility: visible;
-    }
-    #popupbocoran5 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran5:target {
-    visibility: visible;
-    }
-    #popupbocoran6 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran6:target {
-    visibility: visible;
-    }
+.bocoran {
+  width: 350px;
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  margin: 200px auto;
+  padding-bottom: 20px;
+}
+.bocoran h5 {
+  padding-top: 10px;
+  color: #000000;
+}
+.bocoran h6 {
+  color: #000000;
+}
+.close-button {
+  width: 30px;
+  height: 30px;
+  background: #f1c40f;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  display: block;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
 
-     #popupbocoran7 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran7:target {
-    visibility: visible;
-    }
-     #popupbocoran8 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran8:target {
-    visibility: visible;
-    }
-     #popupbocoran9 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran9:target {
-    visibility: visible;
-    }
-     #popupbocoran10 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran10:target {
-    visibility: visible;
-    }
-     #popupbocoran11 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran11:target {
-    visibility: visible;
-    }
-     #popupbocoran12 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran12:target {
-    visibility: visible;
-    }
-    
-     #popupbocoran13 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran13:target {
-    visibility: visible;
-    }
-     #popupbocoran14 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran14:target {
-    visibility: visible;
-    }
-    #popupbocoran15 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran15:target {
-    visibility: visible;
-    }
-    #popupbocoran16 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran16:target {
-    visibility: visible;
-    }
+#popupbocoran1 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
 
-    #popupbocoran17 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran17:target {
-    visibility: visible;
-    }
-     #popupbocoran18 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran18:target {
-    visibility: visible;
-    }
-     #popupbocoran19 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran19:target {
-    visibility: visible;
-    }
-     #popupbocoran20 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran20:target {
-    visibility: visible;
-    }
+#popupbocoran1:target {
+  visibility: visible;
+}
+#popupbocoran2 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
 
-    #popupbocoran21 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran21:target {
-    visibility: visible;
-    }
-    #popupbocoran22 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran22:target {
-    visibility: visible;
-    }
+#popupbocoran2:target {
+  visibility: visible;
+}
 
-     #popupbocoran23 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran23:target {
-    visibility: visible;
-    }
-     #popupbocoran24 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran24:target {
-    visibility: visible;
-    }
-    #popupbocoran25 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran25:target {
-    visibility: visible;
-    }
-    #popupbocoran26 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran26:target {
-    visibility: visible;
-    }
+#popupbocoran3 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
 
-     #popupbocoran27 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran27:target {
-    visibility: visible;
-    }
-     #popupbocoran28 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran28:target {
-    visibility: visible;
-    }
-     #popupbocoran29 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran29:target {
-    visibility: visible;
-    }
-     #popupbocoran30 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran30:target {
-    visibility: visible;
-    }
-     #popupbocoran31 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran31:target {
-    visibility: visible;
-    }
-     #popupbocoran32 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran32:target {
-    visibility: visible;
-    }
-    
-     #popupbocoran33 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran33:target {
-    visibility: visible;
-    }
-     #popupbocoran34 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran34:target {
-    visibility: visible;
-    }
-    #popupbocoran35 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran35:target {
-    visibility: visible;
-    }
-    #popupbocoran36 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran36:target {
-    visibility: visible;
-    }
+#popupbocoran3:target {
+  visibility: visible;
+}
+#popupbocoran4 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
 
-     #popupbocoran37 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran37:target {
-    visibility: visible;
-    }
-     #popupbocoran38 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran38:target {
-    visibility: visible;
-    }
-     #popupbocoran39 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran39:target {
-    visibility: visible;
-    }
-     #popupbocoran40 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran40:target {
-    visibility: visible;
-    }
-    
-     #popupbocoran41 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran41:target {
-    visibility: visible;
-    }
+#popupbocoran4:target {
+  visibility: visible;
+}
+#popupbocoran5 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
 
-    #popupbocoran42 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran42:target {
-    visibility: visible;
-    }
+#popupbocoran5:target {
+  visibility: visible;
+}
+#popupbocoran6 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
 
-     #popupbocoran43 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran43:target {
-    visibility: visible;
-    }
-     #popupbocoran44 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran44:target {
-    visibility: visible;
-    }
-    #popupbocoran45 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran45:target {
-    visibility: visible;
-    }
-    #popupbocoran46 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran46:target {
-    visibility: visible;
-    }
+#popupbocoran6:target {
+  visibility: visible;
+}
 
-     #popupbocoran47 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran47:target {
-    visibility: visible;
-    }
-     #popupbocoran48 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran48:target {
-    visibility: visible;
-    }
-     #popupbocoran49 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran49:target {
-    visibility: visible;
-    }
+#popupbocoran7 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran7:target {
+  visibility: visible;
+}
+#popupbocoran8 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran8:target {
+  visibility: visible;
+}
+#popupbocoran9 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran9:target {
+  visibility: visible;
+}
+#popupbocoran10 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran10:target {
+  visibility: visible;
+}
+#popupbocoran11 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran11:target {
+  visibility: visible;
+}
+#popupbocoran12 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran12:target {
+  visibility: visible;
+}
+
+#popupbocoran13 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran13:target {
+  visibility: visible;
+}
+#popupbocoran14 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran14:target {
+  visibility: visible;
+}
+#popupbocoran15 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran15:target {
+  visibility: visible;
+}
+#popupbocoran16 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran16:target {
+  visibility: visible;
+}
+
+#popupbocoran17 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran17:target {
+  visibility: visible;
+}
+#popupbocoran18 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran18:target {
+  visibility: visible;
+}
+#popupbocoran19 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran19:target {
+  visibility: visible;
+}
+#popupbocoran20 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran20:target {
+  visibility: visible;
+}
+
+#popupbocoran21 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran21:target {
+  visibility: visible;
+}
+#popupbocoran22 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran22:target {
+  visibility: visible;
+}
+
+#popupbocoran23 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran23:target {
+  visibility: visible;
+}
+#popupbocoran24 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran24:target {
+  visibility: visible;
+}
+#popupbocoran25 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran25:target {
+  visibility: visible;
+}
+#popupbocoran26 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran26:target {
+  visibility: visible;
+}
+
+#popupbocoran27 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran27:target {
+  visibility: visible;
+}
+#popupbocoran28 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran28:target {
+  visibility: visible;
+}
+#popupbocoran29 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran29:target {
+  visibility: visible;
+}
+#popupbocoran30 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran30:target {
+  visibility: visible;
+}
+#popupbocoran31 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran31:target {
+  visibility: visible;
+}
+#popupbocoran32 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran32:target {
+  visibility: visible;
+}
+
+#popupbocoran33 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran33:target {
+  visibility: visible;
+}
+#popupbocoran34 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran34:target {
+  visibility: visible;
+}
+#popupbocoran35 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran35:target {
+  visibility: visible;
+}
+#popupbocoran36 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran36:target {
+  visibility: visible;
+}
+
+#popupbocoran37 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran37:target {
+  visibility: visible;
+}
+#popupbocoran38 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran38:target {
+  visibility: visible;
+}
+#popupbocoran39 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran39:target {
+  visibility: visible;
+}
+#popupbocoran40 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran40:target {
+  visibility: visible;
+}
+
+#popupbocoran41 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran41:target {
+  visibility: visible;
+}
+
+#popupbocoran42 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran42:target {
+  visibility: visible;
+}
+
+#popupbocoran43 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran43:target {
+  visibility: visible;
+}
+#popupbocoran44 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran44:target {
+  visibility: visible;
+}
+#popupbocoran45 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran45:target {
+  visibility: visible;
+}
+#popupbocoran46 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran46:target {
+  visibility: visible;
+}
+
+#popupbocoran47 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran47:target {
+  visibility: visible;
+}
+#popupbocoran48 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran48:target {
+  visibility: visible;
+}
+#popupbocoran49 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran49:target {
+  visibility: visible;
+}
 
 #popupbocoran50 {
-width: 100%;
-height: 100%;
-position: fixed;
-background: rgba(0,0,0,.7);
-top: 0;
-left: 0;
-z-index: 9999;
-visibility: hidden;
-   }
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
 
 #popupbocoran50:target {
-visibility: visible;
+  visibility: visible;
 }
 
 #popupbocoran51 {
-width: 100%;
-height: 100%;
-position: fixed;
-background: rgba(0,0,0,.7);
-top: 0;
-left: 0;
-z-index: 9999;
-visibility: hidden;
-   }
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
 
 #popupbocoran51:target {
-visibility: visible;
+  visibility: visible;
 }
-    #popupbocoran52 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran52:target {
-    visibility: visible;
-    }
+#popupbocoran52 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
 
-     #popupbocoran53 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran53:target {
-    visibility: visible;
-    }
-     #popupbocoran54 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran54:target {
-    visibility: visible;
-    }
-    #popupbocoran55 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran55:target {
-    visibility: visible;
-    }
-    #popupbocoran56 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran56:target {
-    visibility: visible;
-    }
+#popupbocoran52:target {
+  visibility: visible;
+}
 
-     #popupbocoran57 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran57:target {
-    visibility: visible;
-    }
-     #popupbocoran58 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran58:target {
-    visibility: visible;
-    }
-     #popupbocoran59 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran59:target {
-    visibility: visible;
-    }
-    #popupbocoran60 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran60:target {
-    visibility: visible;
-    }
-    #popupbocoran61 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran61:target {
-    visibility: visible;
-    }
-    #popupbocoran62 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran62:target {
-    visibility: visible;
-    }
+#popupbocoran53 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
 
-     #popupbocoran63 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran63:target {
-    visibility: visible;
-    }
-     #popupbocoran64 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran64:target {
-    visibility: visible;
-    }
-    #popupbocoran65 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran65:target {
-    visibility: visible;
-    }
-    #popupbocoran66 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran66:target {
-    visibility: visible;
-    }
+#popupbocoran53:target {
+  visibility: visible;
+}
+#popupbocoran54 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
 
-     #popupbocoran67 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran67:target {
-    visibility: visible;
-    }
-     #popupbocoran68 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran68:target {
-    visibility: visible;
-    }
-     #popupbocoran69 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran69:target {
-    visibility: visible;
-    }
-     #popupbocoran70 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran70:target {
-    visibility: visible;
-    }
-     #popupbocoran71 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran71:target {
-    visibility: visible;
-    }
-     #popupbocoran72 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran72:target {
-    visibility: visible;
-    }
-    
-     #popupbocoran73 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran73:target {
-    visibility: visible;
-    }
-     #popupbocoran74 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran74:target {
-    visibility: visible;
-    }
-    #popupbocoran75 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran75:target {
-    visibility: visible;
-    }
-    #popupbocoran76 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran76:target {
-    visibility: visible;
-    }
+#popupbocoran54:target {
+  visibility: visible;
+}
+#popupbocoran55 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
 
-     #popupbocoran77 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran77:target {
-    visibility: visible;
-    }
-     #popupbocoran78 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran78:target {
-    visibility: visible;
-    }
-     #popupbocoran79 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran79:target {
-    visibility: visible;
-    }
-     #popupbocoran80 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran80:target {
-    visibility: visible;
-    }
+#popupbocoran55:target {
+  visibility: visible;
+}
+#popupbocoran56 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
 
-    #popupbocoran81 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran81:target {
-    visibility: visible;
-    }
-    #popupbocoran82 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran82:target {
-    visibility: visible;
-    }
+#popupbocoran56:target {
+  visibility: visible;
+}
 
-     #popupbocoran83 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran83:target {
-    visibility: visible;
-    }
-     #popupbocoran84 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran84:target {
-    visibility: visible;
-    }
-    #popupbocoran85 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran85:target {
-    visibility: visible;
-    }
-    #popupbocoran86 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran86:target {
-    visibility: visible;
-    }
+#popupbocoran57 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
 
-     #popupbocoran87 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran87:target {
-    visibility: visible;
-    }
-     #popupbocoran88 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran88:target {
-    visibility: visible;
-    }
-     #popupbocoran89 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran89:target {
-    visibility: visible;
-    }
-     #popupbocoran90 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran90:target {
-    visibility: visible;
-    }
-     #popupbocoran91 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran91:target {
-    visibility: visible;
-    }
-     #popupbocoran92 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran92:target {
-    visibility: visible;
-    }
-    
-     #popupbocoran93 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran93:target {
-    visibility: visible;
-    }
-     #popupbocoran94 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran94:target {
-    visibility: visible;
-    }
-    #popupbocoran95 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran95:target {
-    visibility: visible;
-    }
-    #popupbocoran96 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran96:target {
-    visibility: visible;
-    }
+#popupbocoran57:target {
+  visibility: visible;
+}
+#popupbocoran58 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
 
-     #popupbocoran97 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran97:target {
-    visibility: visible;
-    }
-     #popupbocoran98 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran98:target {
-    visibility: visible;
-    }
-     #popupbocoran99 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran99:target {
-    visibility: visible;
-    }
-     #popupbocoran100 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran100:target {
-    visibility: visible;
-    }
-    
-     #popupbocoran101 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran101:target {
-    visibility: visible;
-    }
+#popupbocoran58:target {
+  visibility: visible;
+}
+#popupbocoran59 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
 
-    #popupbocoran102 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran102:target {
-    visibility: visible;
-    }
+#popupbocoran59:target {
+  visibility: visible;
+}
+#popupbocoran60 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
 
-     #popupbocoran103 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran103:target {
-    visibility: visible;
-    }
-     #popupbocoran104 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran104:target {
-    visibility: visible;
-    }
-    #popupbocoran105 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran105:target {
-    visibility: visible;
-    }
-    #popupbocoran106 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran106:target {
-    visibility: visible;
-    }
+#popupbocoran60:target {
+  visibility: visible;
+}
+#popupbocoran61 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
 
-     #popupbocoran107 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran107:target {
-    visibility: visible;
-    }
-     #popupbocoran108 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran108:target {
-    visibility: visible;
-    }
-     #popupbocoran109 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran109:target {
-    visibility: visible;
-    }
+#popupbocoran61:target {
+  visibility: visible;
+}
+#popupbocoran62 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran62:target {
+  visibility: visible;
+}
+
+#popupbocoran63 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran63:target {
+  visibility: visible;
+}
+#popupbocoran64 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran64:target {
+  visibility: visible;
+}
+#popupbocoran65 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran65:target {
+  visibility: visible;
+}
+#popupbocoran66 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran66:target {
+  visibility: visible;
+}
+
+#popupbocoran67 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran67:target {
+  visibility: visible;
+}
+#popupbocoran68 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran68:target {
+  visibility: visible;
+}
+#popupbocoran69 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran69:target {
+  visibility: visible;
+}
+#popupbocoran70 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran70:target {
+  visibility: visible;
+}
+#popupbocoran71 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran71:target {
+  visibility: visible;
+}
+#popupbocoran72 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran72:target {
+  visibility: visible;
+}
+
+#popupbocoran73 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran73:target {
+  visibility: visible;
+}
+#popupbocoran74 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran74:target {
+  visibility: visible;
+}
+#popupbocoran75 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran75:target {
+  visibility: visible;
+}
+#popupbocoran76 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran76:target {
+  visibility: visible;
+}
+
+#popupbocoran77 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran77:target {
+  visibility: visible;
+}
+#popupbocoran78 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran78:target {
+  visibility: visible;
+}
+#popupbocoran79 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran79:target {
+  visibility: visible;
+}
+#popupbocoran80 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran80:target {
+  visibility: visible;
+}
+
+#popupbocoran81 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran81:target {
+  visibility: visible;
+}
+#popupbocoran82 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran82:target {
+  visibility: visible;
+}
+
+#popupbocoran83 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran83:target {
+  visibility: visible;
+}
+#popupbocoran84 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran84:target {
+  visibility: visible;
+}
+#popupbocoran85 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran85:target {
+  visibility: visible;
+}
+#popupbocoran86 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran86:target {
+  visibility: visible;
+}
+
+#popupbocoran87 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran87:target {
+  visibility: visible;
+}
+#popupbocoran88 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran88:target {
+  visibility: visible;
+}
+#popupbocoran89 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran89:target {
+  visibility: visible;
+}
+#popupbocoran90 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran90:target {
+  visibility: visible;
+}
+#popupbocoran91 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran91:target {
+  visibility: visible;
+}
+#popupbocoran92 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran92:target {
+  visibility: visible;
+}
+
+#popupbocoran93 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran93:target {
+  visibility: visible;
+}
+#popupbocoran94 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran94:target {
+  visibility: visible;
+}
+#popupbocoran95 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran95:target {
+  visibility: visible;
+}
+#popupbocoran96 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran96:target {
+  visibility: visible;
+}
+
+#popupbocoran97 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran97:target {
+  visibility: visible;
+}
+#popupbocoran98 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran98:target {
+  visibility: visible;
+}
+#popupbocoran99 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran99:target {
+  visibility: visible;
+}
+#popupbocoran100 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran100:target {
+  visibility: visible;
+}
+
+#popupbocoran101 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran101:target {
+  visibility: visible;
+}
+
+#popupbocoran102 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran102:target {
+  visibility: visible;
+}
+
+#popupbocoran103 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran103:target {
+  visibility: visible;
+}
+#popupbocoran104 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran104:target {
+  visibility: visible;
+}
+#popupbocoran105 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran105:target {
+  visibility: visible;
+}
+#popupbocoran106 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran106:target {
+  visibility: visible;
+}
+
+#popupbocoran107 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran107:target {
+  visibility: visible;
+}
+#popupbocoran108 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran108:target {
+  visibility: visible;
+}
+#popupbocoran109 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran109:target {
+  visibility: visible;
+}
 
 #popupbocoran110 {
-width: 100%;
-height: 100%;
-position: fixed;
-background: rgba(0,0,0,.7);
-top: 0;
-left: 0;
-z-index: 9999;
-visibility: hidden;
-   }
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
 
 #popupbocoran110:target {
-visibility: visible;
+  visibility: visible;
 }
 
 #popupbocoran111 {
-width: 100%;
-height: 100%;
-position: fixed;
-background: rgba(0,0,0,.7);
-top: 0;
-left: 0;
-z-index: 9999;
-visibility: hidden;
-   }
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
 
 #popupbocoran111:target {
-visibility: visible;
+  visibility: visible;
 }
-    #popupbocoran112 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran112:target {
-    visibility: visible;
-    }
+#popupbocoran112 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
 
-     #popupbocoran113 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran113:target {
-    visibility: visible;
-    }
-     #popupbocoran114 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran114:target {
-    visibility: visible;
-    }
-    #popupbocoran115 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran115:target {
-    visibility: visible;
-    }
-    #popupbocoran116 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran116:target {
-    visibility: visible;
-    }
+#popupbocoran112:target {
+  visibility: visible;
+}
 
-     #popupbocoran117 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran117:target {
-    visibility: visible;
-    }
-     #popupbocoran118 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran118:target {
-    visibility: visible;
-    }
-     #popupbocoran119 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran119:target {
-    visibility: visible;
-    }
-    #popupbocoran120 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran120:target {
-    visibility: visible;
-    }
-    #popupbocoran121 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran121:target {
-    visibility: visible;
-    }
-    #popupbocoran122 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran122:target {
-    visibility: visible;
-    }
+#popupbocoran113 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
 
-     #popupbocoran123 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran123:target {
-    visibility: visible;
-    }
-     #popupbocoran124 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran124:target {
-    visibility: visible;
-    }
-    #popupbocoran125 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran125:target {
-    visibility: visible;
-    }
-    #popupbocoran126 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran126:target {
-    visibility: visible;
-    }
+#popupbocoran113:target {
+  visibility: visible;
+}
+#popupbocoran114 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
 
-     #popupbocoran127 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran127:target {
-    visibility: visible;
-    }
-     #popupbocoran128 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran128:target {
-    visibility: visible;
-    }
-     #popupbocoran129 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran129:target {
-    visibility: visible;
-    }
-     #popupbocoran130 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran130:target {
-    visibility: visible;
-    }
-     #popupbocoran131 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran131:target {
-    visibility: visible;
-    }
-     #popupbocoran132 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran132:target {
-    visibility: visible;
-    }
-    
-     #popupbocoran133 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran133:target {
-    visibility: visible;
-    }
-     #popupbocoran134 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran134:target {
-    visibility: visible;
-    }
-    #popupbocoran135 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran135:target {
-    visibility: visible;
-    }
-    #popupbocoran136 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran136:target {
-    visibility: visible;
-    }
+#popupbocoran114:target {
+  visibility: visible;
+}
+#popupbocoran115 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
 
-     #popupbocoran137 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran137:target {
-    visibility: visible;
-    }
-     #popupbocoran138 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran138:target {
-    visibility: visible;
-    }
-     #popupbocoran139 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran139:target {
-    visibility: visible;
-    }
-     #popupbocoran140 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran140:target {
-    visibility: visible;
-    }
-    
-     #popupbocoran141 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran141:target {
-    visibility: visible;
-    }
+#popupbocoran115:target {
+  visibility: visible;
+}
+#popupbocoran116 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
 
-    #popupbocoran142 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran142:target {
-    visibility: visible;
-    }
+#popupbocoran116:target {
+  visibility: visible;
+}
 
-     #popupbocoran143 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran143:target {
-    visibility: visible;
-    }
-     #popupbocoran144 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran144:target {
-    visibility: visible;
-    }
-    #popupbocoran145 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran145:target {
-    visibility: visible;
-    }
-    #popupbocoran146 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran146:target {
-    visibility: visible;
-    }
+#popupbocoran117 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
 
-     #popupbocoran147 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran147:target {
-    visibility: visible;
-    }
-     #popupbocoran148 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran148:target {
-    visibility: visible;
-    }
-     #popupbocoran149 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran149:target {
-    visibility: visible;
-    }
+#popupbocoran117:target {
+  visibility: visible;
+}
+#popupbocoran118 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran118:target {
+  visibility: visible;
+}
+#popupbocoran119 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran119:target {
+  visibility: visible;
+}
+#popupbocoran120 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran120:target {
+  visibility: visible;
+}
+#popupbocoran121 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran121:target {
+  visibility: visible;
+}
+#popupbocoran122 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran122:target {
+  visibility: visible;
+}
+
+#popupbocoran123 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran123:target {
+  visibility: visible;
+}
+#popupbocoran124 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran124:target {
+  visibility: visible;
+}
+#popupbocoran125 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran125:target {
+  visibility: visible;
+}
+#popupbocoran126 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran126:target {
+  visibility: visible;
+}
+
+#popupbocoran127 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran127:target {
+  visibility: visible;
+}
+#popupbocoran128 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran128:target {
+  visibility: visible;
+}
+#popupbocoran129 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran129:target {
+  visibility: visible;
+}
+#popupbocoran130 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran130:target {
+  visibility: visible;
+}
+#popupbocoran131 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran131:target {
+  visibility: visible;
+}
+#popupbocoran132 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran132:target {
+  visibility: visible;
+}
+
+#popupbocoran133 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran133:target {
+  visibility: visible;
+}
+#popupbocoran134 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran134:target {
+  visibility: visible;
+}
+#popupbocoran135 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran135:target {
+  visibility: visible;
+}
+#popupbocoran136 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran136:target {
+  visibility: visible;
+}
+
+#popupbocoran137 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran137:target {
+  visibility: visible;
+}
+#popupbocoran138 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran138:target {
+  visibility: visible;
+}
+#popupbocoran139 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran139:target {
+  visibility: visible;
+}
+#popupbocoran140 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran140:target {
+  visibility: visible;
+}
+
+#popupbocoran141 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran141:target {
+  visibility: visible;
+}
+
+#popupbocoran142 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran142:target {
+  visibility: visible;
+}
+
+#popupbocoran143 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran143:target {
+  visibility: visible;
+}
+#popupbocoran144 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran144:target {
+  visibility: visible;
+}
+#popupbocoran145 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran145:target {
+  visibility: visible;
+}
+#popupbocoran146 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran146:target {
+  visibility: visible;
+}
+
+#popupbocoran147 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran147:target {
+  visibility: visible;
+}
+#popupbocoran148 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran148:target {
+  visibility: visible;
+}
+#popupbocoran149 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran149:target {
+  visibility: visible;
+}
 
 #popupbocoran150 {
-width: 100%;
-height: 100%;
-position: fixed;
-background: rgba(0,0,0,.7);
-top: 0;
-left: 0;
-z-index: 9999;
-visibility: hidden;
-   }
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
 
 #popupbocoran150:target {
-visibility: visible;
+  visibility: visible;
 }
 
 #popupbocoran151 {
-width: 100%;
-height: 100%;
-position: fixed;
-background: rgba(0,0,0,.7);
-top: 0;
-left: 0;
-z-index: 9999;
-visibility: hidden;
-   }
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
 
 #popupbocoran151:target {
-visibility: visible;
+  visibility: visible;
 }
-    #popupbocoran152 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran152:target {
-    visibility: visible;
-    }
+#popupbocoran152 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
 
-     #popupbocoran153 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran153:target {
-    visibility: visible;
-    }
-     #popupbocoran154 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran154:target {
-    visibility: visible;
-    }
-    #popupbocoran155 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran155:target {
-    visibility: visible;
-    }
-    #popupbocoran156 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran156:target {
-    visibility: visible;
-    }
+#popupbocoran152:target {
+  visibility: visible;
+}
 
-     #popupbocoran157 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran157:target {
-    visibility: visible;
-    }
-     #popupbocoran158 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran158:target {
-    visibility: visible;
-    }
-     #popupbocoran159 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran159:target {
-    visibility: visible;
-    }
-    #popupbocoran160 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran160:target {
-    visibility: visible;
-    }
+#popupbocoran153 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran153:target {
+  visibility: visible;
+}
+#popupbocoran154 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran154:target {
+  visibility: visible;
+}
+#popupbocoran155 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran155:target {
+  visibility: visible;
+}
+#popupbocoran156 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran156:target {
+  visibility: visible;
+}
+
+#popupbocoran157 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran157:target {
+  visibility: visible;
+}
+#popupbocoran158 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran158:target {
+  visibility: visible;
+}
+#popupbocoran159 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran159:target {
+  visibility: visible;
+}
+#popupbocoran160 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran160:target {
+  visibility: visible;
+}
 
 #popupbocoran161 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran161:target {
-    visibility: visible;
-    }
-    #popupbocoran162 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran162:target {
-    visibility: visible;
-    }
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
 
-     #popupbocoran163 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran163:target {
-    visibility: visible;
-    }
-     #popupbocoran164 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran164:target {
-    visibility: visible;
-    }
-    #popupbocoran165 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran165:target {
-    visibility: visible;
-    }
-    #popupbocoran166 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran166:target {
-    visibility: visible;
-    }
+#popupbocoran161:target {
+  visibility: visible;
+}
+#popupbocoran162 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
 
-     #popupbocoran167 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran167:target {
-    visibility: visible;
-    }
-     #popupbocoran168 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran168:target {
-    visibility: visible;
-    }
-     #popupbocoran169 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran169:target {
-    visibility: visible;
-    }
-     #popupbocoran170 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran170:target {
-    visibility: visible;
-    }
-     #popupbocoran171 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran171:target {
-    visibility: visible;
-    }
-     #popupbocoran172 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran172:target {
-    visibility: visible;
-    }
-    
-     #popupbocoran173 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran173:target {
-    visibility: visible;
-    }
-     #popupbocoran174 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran174:target {
-    visibility: visible;
-    }
-    #popupbocoran175 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran175:target {
-    visibility: visible;
-    }
-    #popupbocoran176 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran176:target {
-    visibility: visible;
-    }
+#popupbocoran162:target {
+  visibility: visible;
+}
 
-     #popupbocoran177 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran177:target {
-    visibility: visible;
-    }
-     #popupbocoran178 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran178:target {
-    visibility: visible;
-    }
-     #popupbocoran179 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran179:target {
-    visibility: visible;
-    }
-     #popupbocoran180 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran180:target {
-    visibility: visible;
-    }
+#popupbocoran163 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
 
-    #popupbocoran181 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran181:target {
-    visibility: visible;
-    }
-    #popupbocoran182 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran182:target {
-    visibility: visible;
-    }
+#popupbocoran163:target {
+  visibility: visible;
+}
+#popupbocoran164 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
 
-     #popupbocoran183 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran183:target {
-    visibility: visible;
-    }
-     #popupbocoran184 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran184:target {
-    visibility: visible;
-    }
-    #popupbocoran185 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran185:target {
-    visibility: visible;
-    }
-    #popupbocoran186 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran186:target {
-    visibility: visible;
-    }
+#popupbocoran164:target {
+  visibility: visible;
+}
+#popupbocoran165 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
 
-     #popupbocoran187 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran187:target {
-    visibility: visible;
-    }
-     #popupbocoran188 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran188:target {
-    visibility: visible;
-    }
-     #popupbocoran189 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran189:target {
-    visibility: visible;
-    }
-     #popupbocoran190 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran190:target {
-    visibility: visible;
-    }
-     #popupbocoran191 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran191:target {
-    visibility: visible;
-    }
-     #popupbocoran192 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran192:target {
-    visibility: visible;
-    }
-    
-     #popupbocoran193 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran193:target {
-    visibility: visible;
-    }
-     #popupbocoran194 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran194:target {
-    visibility: visible;
-    }
-    #popupbocoran195 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran195:target {
-    visibility: visible;
-    }
-    #popupbocoran196 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran196:target {
-    visibility: visible;
-    }
+#popupbocoran165:target {
+  visibility: visible;
+}
+#popupbocoran166 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
 
-     #popupbocoran197 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran197:target {
-    visibility: visible;
-    }
-     #popupbocoran198 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran198:target {
-    visibility: visible;
-    }
-     #popupbocoran199 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran199:target {
-    visibility: visible;
-    }
-     #popupbocoran200 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran200:target {
-    visibility: visible;
-    }
-    
-     #popupbocoran201 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran201:target {
-    visibility: visible;
-    }
+#popupbocoran166:target {
+  visibility: visible;
+}
 
-    #popupbocoran202 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran202:target {
-    visibility: visible;
-    }
+#popupbocoran167 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
 
-     #popupbocoran203 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran203:target {
-    visibility: visible;
-    }
-     #popupbocoran204 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran204:target {
-    visibility: visible;
-    }
-    #popupbocoran205 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran205:target {
-    visibility: visible;
-    }
-    #popupbocoran206 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran206:target {
-    visibility: visible;
-    }
+#popupbocoran167:target {
+  visibility: visible;
+}
+#popupbocoran168 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
 
-     #popupbocoran207 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran207:target {
-    visibility: visible;
-    }
-     #popupbocoran208 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran208:target {
-    visibility: visible;
-    }
-     #popupbocoran209 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgba(0,0,0,.7);
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    visibility: hidden;
-        }
-    
-    #popupbocoran209:target {
-    visibility: visible;
-    }
+#popupbocoran168:target {
+  visibility: visible;
+}
+#popupbocoran169 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran169:target {
+  visibility: visible;
+}
+#popupbocoran170 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran170:target {
+  visibility: visible;
+}
+#popupbocoran171 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran171:target {
+  visibility: visible;
+}
+#popupbocoran172 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran172:target {
+  visibility: visible;
+}
+
+#popupbocoran173 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran173:target {
+  visibility: visible;
+}
+#popupbocoran174 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran174:target {
+  visibility: visible;
+}
+#popupbocoran175 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran175:target {
+  visibility: visible;
+}
+#popupbocoran176 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran176:target {
+  visibility: visible;
+}
+
+#popupbocoran177 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran177:target {
+  visibility: visible;
+}
+#popupbocoran178 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran178:target {
+  visibility: visible;
+}
+#popupbocoran179 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran179:target {
+  visibility: visible;
+}
+#popupbocoran180 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran180:target {
+  visibility: visible;
+}
+
+#popupbocoran181 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran181:target {
+  visibility: visible;
+}
+#popupbocoran182 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran182:target {
+  visibility: visible;
+}
+
+#popupbocoran183 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran183:target {
+  visibility: visible;
+}
+#popupbocoran184 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran184:target {
+  visibility: visible;
+}
+#popupbocoran185 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran185:target {
+  visibility: visible;
+}
+#popupbocoran186 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran186:target {
+  visibility: visible;
+}
+
+#popupbocoran187 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran187:target {
+  visibility: visible;
+}
+#popupbocoran188 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran188:target {
+  visibility: visible;
+}
+#popupbocoran189 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran189:target {
+  visibility: visible;
+}
+#popupbocoran190 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran190:target {
+  visibility: visible;
+}
+#popupbocoran191 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran191:target {
+  visibility: visible;
+}
+#popupbocoran192 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran192:target {
+  visibility: visible;
+}
+
+#popupbocoran193 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran193:target {
+  visibility: visible;
+}
+#popupbocoran194 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran194:target {
+  visibility: visible;
+}
+#popupbocoran195 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran195:target {
+  visibility: visible;
+}
+#popupbocoran196 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran196:target {
+  visibility: visible;
+}
+
+#popupbocoran197 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran197:target {
+  visibility: visible;
+}
+#popupbocoran198 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran198:target {
+  visibility: visible;
+}
+#popupbocoran199 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran199:target {
+  visibility: visible;
+}
+#popupbocoran200 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran200:target {
+  visibility: visible;
+}
+
+#popupbocoran201 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran201:target {
+  visibility: visible;
+}
+
+#popupbocoran202 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran202:target {
+  visibility: visible;
+}
+
+#popupbocoran203 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran203:target {
+  visibility: visible;
+}
+#popupbocoran204 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran204:target {
+  visibility: visible;
+}
+#popupbocoran205 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran205:target {
+  visibility: visible;
+}
+#popupbocoran206 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran206:target {
+  visibility: visible;
+}
+
+#popupbocoran207 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran207:target {
+  visibility: visible;
+}
+#popupbocoran208 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran208:target {
+  visibility: visible;
+}
+#popupbocoran209 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+#popupbocoran209:target {
+  visibility: visible;
+}
