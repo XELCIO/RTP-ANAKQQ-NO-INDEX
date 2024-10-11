@@ -193,9 +193,7 @@ footer#footer_games {
   margin: 0;
   padding: 0;
 }
-a {
-  color: #000 !important;
-}
+
 .container,
 .col-1,
 .col-2,
@@ -678,12 +676,6 @@ a {
   padding: 0;
   font-size: 4vw;
   letter-spacing: unset;
-}
-
-a,
-a:hover,
-a:visited {
-  color: #0048ba;
 }
 
 a:hover {
