@@ -117,7 +117,7 @@ img{
     display: block;
     border-bottom: none;
     padding: 6px;
-    background: linear-gradient(to top, #031020 0%, #1c4483 100%);
+    background: linear-gradient(90deg, rgba(26,26,26,0.3) 0%, rgba(0,0,0,0.3) 10%, rgba(0,0,0,0.3) 100%), #f97a05;
 }
 
 .slot-sidebar-nav > li > a{
@@ -318,7 +318,7 @@ img{
 }
 .next-btn{
     /* display: none; */
-    background: linear-gradient(to top, #031020 0%, #1c4483 100%);
+    background: #f97a05;
     width: 15%;
 }
 
@@ -327,7 +327,7 @@ img{
 }
 
 .next-btn{
-    background-color: #292a2b;
+    background-color: #f97a05;
     border: none;
     color: #fff;
 }
